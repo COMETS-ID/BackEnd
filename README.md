@@ -20,7 +20,7 @@ Before running the application, make sure you have the following installed on yo
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone [https://github.com/CH2-PS324/palomade-api.git](https://github.com/COMETS-ID/BackEnd.git)
+   git clone [https://github.com/COMETS-ID/BackEnd.git]
    ```
 
 2. Navigate to the directory:
