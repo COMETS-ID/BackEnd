@@ -68,7 +68,7 @@ npm run dev
 | Content Cell  | Content Cell  |
 
 | Method  | Domain                                     | Path            | Descripton                 |
-| :--- |--------------------------------------------|-----------------|----------------------------|
+| ------- |--------------------------------------------|-----------------|----------------------------|
 |[POST]   | https://comets-okxscopjda-et.a.run.app   |/users   |# Register User             |
 |[POST]   | https://comets-okxscopjda-et.a.run.app   |/login   |# Login User                |
 |[GET]    | https://comets-okxscopjda-et.a.run.app   |/users/:id   |# Get User Detail           |
