@@ -89,30 +89,6 @@ List and describe the available endpoints of your API. Provide details such as t
 
 ### 1. Register User
 
-- **Method:** `POST`
-- **Path:** `/api/users/register`
-- **Description:** endpoint for register users
-- **Important Notes:** role is filled with ['supir','organisasi','user']
-- **Request Body:**
-  ```json
-  {
-       "name": "Iqbal Palomade",
-       "email": "iqbal@palomade.com",
-       "password": "12345678",
-       "role": "user"
-  }
-  ```
-- **Response Body:**
-  ```json
-  {
-       "message": "User was registered successfully!",
-       "data": {
-           "name": "Iqbal Palomade",
-           "email": "iqbal@palomade.com",
-           "password": "12345678",
-           "role": "user"
-       }
-  }
   ```
   
 
