@@ -62,30 +62,49 @@ npm run dev
 ### Users
 | Method  | Domain                                     | Path            | Descripton                 |
 | ------- |--------------------------------------------|-----------------|----------------------------|
-|[POST]   | https://comets-okxscopjda-et.a.run.app     |/users   | Register User             |
-|[POST]   | https://comets-okxscopjda-et.a.run.app     |/login   | Login User                |
-|[GET]    | https://comets-okxscopjda-et.a.run.app     |/users/:id   | Get User Detail           |
+|[POST]   | https://comets-okxscopjda-et.a.run.app     | /users   | Register User             |
+|[POST]   | https://comets-okxscopjda-et.a.run.app     | /login   | Login User                |
+|[GET]    | https://comets-okxscopjda-et.a.run.app     | /users/:id   | Get User Detail           |
 |[PATCH]  | https://comets-okxscopjda-et.a.run.app     | /users/:id   | Update User Detail        |
 
 ### Assesment
-| Method  | Domain                                     | Path            | Descripton                 |
-| ------- |--------------------------------------------|-----------------|----------------------------|
-|[POST]   | https://comets-okxscopjda-et.a.run.app     |/users   | Register User             |
-|[POST]   | https://comets-okxscopjda-et.a.run.app     |/login   | Login User                |
-|[GET]    | https://comets-okxscopjda-et.a.run.app     |/users/:id   | Get User Detail           |
-|[PATCH]  | https://comets-okxscopjda-et.a.run.app     | /users/:id   | Update User Detail        |
+| Method  | Domain                                     | Path                     | Descripton                 |
+| ------- |--------------------------------------------|--------------------------|----------------------------|
+|[GET]    | https://comets-okxscopjda-et.a.run.app     | /Assesments              | Get All Assesment User             |
+|[GET]    | https://comets-okxscopjda-et.a.run.app     | /Assesment/UserRoom/:id  | Get All Assesment from UserRoom                |
+|[POST]   | https://comets-okxscopjda-et.a.run.app     | /Assesment               | Create General Assesment User          |
+|[POST]   | https://comets-okxscopjda-et.a.run.app     | /Assesment/UserRoom/:id  | Create Assesment By UserRoom     |
+|[DELETE] | https://comets-okxscopjda-et.a.run.app     | /Assesment/UserRoom/:id  | Delete Assesment     |
 
+### Post
+| Method  | Domain                                     | Path                     | Descripton                 |
+| ------- |--------------------------------------------|--------------------------|----------------------------|
+|[GET]    | https://comets-okxscopjda-et.a.run.app     | /Posting/              | Get All the Post             |
+|[POST]   | https://comets-okxscopjda-et.a.run.app     | /Posting/               | Create A Post          |
+|[DELETE] | https://comets-okxscopjda-et.a.run.app     | /Posting/:id  | Delete A Post     |
+
+### Comment
+| Method  | Domain                                     | Path                     | Descripton                 |
+| ------- |--------------------------------------------|--------------------------|----------------------------|
+|[GET]    | https://comets-okxscopjda-et.a.run.app     | /Comment/Posting/:id     | Get All Commoents From A Post             |
+|[POST]   | https://comets-okxscopjda-et.a.run.app     | /Comment/Posting/:id     | Create A Comment From A Post          |
+|[DELETE] | https://comets-okxscopjda-et.a.run.app     | /Comment/:id             | Delete A Comment     |
+
+### Rooms
+| Method  | Domain                                     | Path                     | Descripton                 |
+| ------- |--------------------------------------------|--------------------------|----------------------------|
+|[GET]    | https://comets-okxscopjda-et.a.run.app     | /Rooms    | Get All Rooms From user             |
+|[POST]   | https://comets-okxscopjda-et.a.run.app     | /Room     | Create A Room          |
+|[DELETE] | https://comets-okxscopjda-et.a.run.app     | /Room/:id             | Delete A Room     |
+
+### UserRoom
+| Method  | Domain                                     | Path                     | Descripton                 |
+| ------- |--------------------------------------------|--------------------------|----------------------------|
+|[GET]    | https://comets-okxscopjda-et.a.run.app     | /User/Rooms/:id    | Get All Member Room             |
+|[POST]   | https://comets-okxscopjda-et.a.run.app     | /User/Room     | Invite A User To Room|
+|[DELETE] | https://comets-okxscopjda-et.a.run.app     | /User/Room/:id             | Delete A UserRoom     |
 
 ```bash
-
-
-# Assesment
-[GET] https://comets-okxscopjda-et.a.run.app/Assesments # Get All Assesment User
-[GET] https://comets-okxscopjda-et.a.run.app/Assesment/UserRoom/:id # Get All Assesment from UserRoom
-[POST] https://comets-okxscopjda-et.a.run.app/Assesment/ # Create General Assesment User
-[POST] https://comets-okxscopjda-et.a.run.app/Assesment/UserRoom/:id # Create Assesment By UserRoom
-[DELETE] https://comets-okxscopjda-et.a.run.app/Assesment/UserRoom/:id # Create Assesment By UserRoom
-
 
 
 ## API Endpoints
