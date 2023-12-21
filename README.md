@@ -104,17 +104,4 @@ npm run dev
 |[POST]   | https://comets-okxscopjda-et.a.run.app     | /User/Room     | Invite A User To Room|
 |[DELETE] | https://comets-okxscopjda-et.a.run.app     | /User/Room/:id             | Delete A UserRoom     |
 
-```bash
 
-
-## API Endpoints
-
-List and describe the available endpoints of your API. Provide details such as the HTTP methods supported, expected parameters, and example responses. Organize this section logically based on the different functionalities your API offers.
-
-### 1. Register User
-
-  ```
-  
-
-  ```
-  
