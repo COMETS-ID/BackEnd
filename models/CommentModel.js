@@ -45,4 +45,4 @@ Posting.hasMany(Comment)
 Comment.belongsTo(Users, {foreignKey: 'userId'})
 Comment.belongsTo(Posting, {foreignKey: 'postingId'})
 
- export default Comment;
+export default Comment;
